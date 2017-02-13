@@ -1,0 +1,75 @@
+#carouselExampleIndicators{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: linear-gradient(
+                     rgba(255,255,255, .5),
+                     rgba(255,255,255, .5));
+}
+
+.jumbotron{
+  position: static;
+}
+.carousel-item{
+  background-color: #000000;
+}
+.carousel-item img{
+  opacity: 0.5;
+}
+
+
+#form{
+  margin-top: 11%;
+  text-align:center;
+  color:#ffffff;
+  text-shadow: 0 4px 8px 0 rgba(20, 20, 20, 0.2), 0 6px 20px 0 rgba(20, 20, 20, 0.19);
+}
+
+.form-inline{
+  box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 0.2), 0 6px 20px 0 rgba(20, 20, 20, 0.19);
+  padding:10px;
+  background-color: white;
+  margin-right: 12%;
+  margin-left: 12%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.navbar{
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+    font-size: 140%;
+}
+.navbar img{
+  height:100%;
+  padding:0px;
+}
+
+
+
+.btn-app{
+  background-color: #e23c52;
+  color:#ffffff;
+
+  align: right;
+  padding-left:15px;
+  padding-right: 15px;
+  border: 2px solid #e23c52;
+  border-radius:10px;
+  margin-bottom: 150px;
+}
+.btn-app:hover{
+background: transparent;
+color:#e23c52;
+}
+
+nav ul li a{
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    text-decoration: underline;
+    border-bottom: 1px solid #F117B4;
+}
